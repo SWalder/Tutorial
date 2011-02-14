@@ -1,0 +1,169 @@
+* { 
+	margin:0; 
+	padding:0; 
+}
+
+body {
+  background:#ccc url(images/body-bg.jpg) repeat-x 0 0;
+}
+
+div.featured {
+	background:url(images/featured-work-bg.jpg) no-repeat 0 0;
+	height:166px;
+	padding:10px 0 0 10px;
+	width:100%;
+}
+
+div.featured div.content {
+	height:146px;
+	width:455px;
+}
+
+h2#about-us {
+	background:url(images/text-about.jpg) no-repeat 0 0;
+	display:block;
+	height:45px;
+	text-indent:-9999px;
+	width:100%;
+}
+
+h2#featured-work {
+	background:url(images/text-featured.jpg) no-repeat 0 0;
+	clear:both;
+	display:block;
+	height:45px;
+	text-indent:-9999px;
+	width:100%;
+}
+li#contact a:hover {
+  background:url(images/nav-sprite.jpg) no-repeat -419px -121px;
+}
+
+li#home a:hover {
+  background:url(images/nav-sprite.jpg) no-repeat 0 -121px;
+}
+li#portfolio a:hover {
+  background:url(images/nav-sprite.jpg) no-repeat -115px -121px;
+}
+li#services a:hover {
+  background:url(images/nav-sprite.jpg) no-repeat -275px -121px;
+}
+
+p {
+  font:normal 13px/20px Verdana, Geneva, sans-serif;
+  color:#333;
+  padding:0;
+  margin:10px 0 10px 0px;
+}
+
+#contact {
+	width:147px;
+}
+
+#container {
+	margin:0 auto;
+	width:950px;
+}
+
+
+#description {
+	float:left;
+	margin:55px 0 55px 20px;
+	width:455px;
+}
+
+#description p {
+  color:#fff;
+  font:bold 30px/32px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#featured-area {
+	background:url(images/bg-featured.jpg) no-repeat 0 0;
+	clear:both;
+	height:304px;
+}
+
+#footer {
+	background-color:#333;
+	clear:both;
+}
+
+#footer p {
+	color:#ccc;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	padding:0;
+	width:950px;
+}
+
+#home {
+	width:115px;
+}
+
+#left-column {
+	float:left;
+	margin-left:20px;
+	width:430px;
+}
+
+#main-content {
+	float:left;
+	width:100%;
+}
+
+#masthead h1 {
+	display:block;
+	float:left;
+	height:121px;
+	text-indent:-9999px;
+}
+
+#masthead h1 a {
+	background:url(images/logo.jpg) no-repeat 0 0;
+	display:block;
+	height:100%;
+	outline:none;
+	width:100%;
+}
+
+#masthead ul {
+	background:url(images/nav-sprite.jpg) no-repeat 0 0;
+	display:block;
+	float:left;
+	height:121px;
+	list-style:none;
+}
+
+#masthead ul li {
+	display:block;
+	float:left;
+	height:121px;
+}
+
+#masthead ul li a {
+	display:block;
+	height:100%;
+	outline:none;
+	text-indent:-9999px;
+	width:100%;
+}
+
+#portfolio {
+	width:160px;
+}
+
+#preview {
+  float:right;
+  margin:55px 20px 55px 0;
+  width:445px;
+}
+
+#right-column {
+	float:right;
+	width:475px;
+}
+
+#services {
+	width:144px;
+}
