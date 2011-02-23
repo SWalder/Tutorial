@@ -1,0 +1,94 @@
+body {
+	background:#383d43 url(images/topnav.png) repeat-x;
+	color:#000;
+	font:62.5% Myriad Pro,Arial,sans-serif;
+	position:relative;
+}
+
+fieldset {
+	border:0;
+}
+
+form {
+	float:right;
+}
+
+input {
+	border:none;
+	color: #a0a4a8;
+	float: left;
+	height: 17px;
+	padding: 5px 10px;
+	width:171px;
+}
+
+input#submit {
+	background: url(images/searchbutton.png) no-repeat;
+	display: inline;
+	float:left;
+	height: 27px;
+	margin: 0px 5px 0px 4px;
+	width:66px;
+}
+
+ul {
+	list-style:none;
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+	margin:0;
+	padding:0;
+}
+
+#header {
+	font-size:14px;
+	height:49px;
+	padding:16px 35px 0px 22px;
+	width:886px;
+}
+
+#header p {
+	color: #525961;
+	float:left;
+}
+
+#header span {
+	color:#bababa;
+}
+
+#header ul {
+	float:right;
+}
+
+#header ul li {
+	background: url(images/headernavibg.png) left bottombottom no-repeat;
+	float:left;
+	margin:0px 12px 0px 0px;
+	padding: 0px 0px 0px 12px;
+}
+
+#header ul li a {
+	color:#fff;
+}
+
+#header ul li.no_bg {
+	background:none;
+}
+
+#logo {
+	background: url(images/logo.png) no-repeat;
+	clear: both;
+	display: inline-block;
+	float:left;
+	height: 34px;
+	margin: 0px 0px 0px 21px;
+	text-indent: -9999px;
+	width: 255px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0px 0px 0px 1px;
+	width: 943px;
+}
+
