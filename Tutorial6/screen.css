@@ -1,0 +1,156 @@
+a {
+	color:#007de2;
+	text-decoration:none;
+}
+
+a.button {
+	background: #32312f url(images/button_bg.jpg) repeat-x;
+	border:1px solid #32312f;
+	color:#ffffff;
+	font-size:9px;
+	line-height:9px;
+	padding:5px 10px 5px 10px;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+a.button:hover {
+	background:#007de2 url(images/button_bg_a.jpg) repeat-x;
+	border-color:#007de2;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background-color:#131211;
+	color:#7f7d78;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height: 19px;
+	margin: 0px;
+	padding:0px;
+}
+
+h2 {
+	color:#000000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	margin: 0px 0px 10px 0px;
+}
+
+p {
+	margin:0px 0px 15px 0px;
+}
+
+small {
+	color:#595856;
+	display:block;
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+ul#menu {
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	right:0px;
+}
+
+ul#menu li {
+	display:inline;
+	margin-left:12px;
+}
+
+ul#menu li a {
+	color:#716d6a;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+ul#menu li a.active, ul#menu li a:hover {
+	color:#211e1e;
+}
+
+.block {
+	background-color:#ffffff;
+	border: 1px solid #a3a09e;
+	margin-bottom:20px;
+	position:relative;
+}
+
+.block_inside {
+	background: #ffffff url(images/background_block_slice.jpg) repeat-x;
+	border: 1px solid #ffffff;
+	display: block;
+	overflow:auto;
+	padding:30px;
+}
+
+.container {
+	margin: 0 auto;
+	position:relative;
+	width:950px;
+}
+
+.image_block {
+	background:#d2d2d2;
+	border:1px solid #b5b5b5;
+	float:left;
+	padding:5px;
+}
+
+.image_block img {
+	border:1px solid #b5b5b5;
+}
+
+.ribbon {
+	position:absolute;
+	right:-3px;
+	top:-3px;
+}
+
+.text_block {
+	float:left;
+	margin-left:30px;
+	width:430px;
+}
+
+#footer {
+	background-image: url(images/background_footer.jpg);
+	background-repeat:repeat-x;
+	color: #ffffff;
+	padding:40px;
+}
+
+#header {
+	padding-top:20px;
+}
+
+#logo {
+	background-image: url(images/logo.png);
+	background-repeat:no-repeat;
+	height: 83px;
+	width: 194px;
+}
+
+#logo h1, #logo small {
+	display:block;
+	margin: 0px;
+	text-indent:-9999px;
+}
+
+#main {
+	background-color:#c4c0be url(images/background_light_slice.jpg) repeat-x;
+}
+
+#main .container {
+	background-image: url(images/background_light.jpg);
+	background-repeat:no-repeat;
+	min-height:400px;
+}
